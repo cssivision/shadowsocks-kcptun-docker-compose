@@ -1,0 +1,9 @@
+{
+	"listen": "0.0.0.0:2006",
+	"target": "shadowsocks:9983",
+	"mode": "fast2",
+	"key": "sivision",
+	"mtu": 1400,
+	"sndwnd": 2048,
+	"rcvwnd": 2048
+}

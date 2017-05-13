@@ -1,0 +1,11 @@
+version: "2"
+services:
+    shadowsocks:
+        build: ./shadowsocks
+        ports:
+        - "1908:1908"
+        - "9983:9983"
+    kcptun:
+        build: ./kcptun
+        ports:
+        - "2006:2006/udp"
